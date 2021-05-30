@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" />
+    <link href="fontawesome/css/all.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <title>Kambovski&#8482</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="site-header mb-1">
+            <div class="site-name-container bg-color-1">
+                <h1 class="text-white">Kambovski</h1>
+            </div>
+            <div class="nav-container bg-color-8">
+                <nav class="nav" id="nav">
+                    <ul>
+                        <li class="nav-item current">
+                            <a href="#about" class="nav-link">
+                                <span class="mb-1">.01</span>
+                                <span>About</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#services" class="nav-link">
+                                <span class="mb-1">.02</span>
+                                <span>Services</span>
+                            </a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">
+                                <span class="nav-text mb-1">.03</span>
+                                <span class="nav-text">Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <section class="mb-1" id="about">
+            <div class="row about-row">
+                <div class="section-1-l">
+                    <img src="img/slika1.jpeg" alt="About image" class="img-responsive1">
+                </div>
+                <article class="section-1-r bg-color-8">
+                    <h2 class="mb-2 title-color">.01 About</h2>
+                    <p> My name is Vladimir Kambovski, Student on Ss. Cyril and Methodius University - <a href="https://www.finki.ukim.mk/" target="_blank">Faculty of Computer Science and Engineering. </a> </p>
+                    
+                    <p> CEO of Kambovski&#8482 where we can help you build your own website, Press on the button to gather more information about the services. </p>
+
+                    <a href="#services" class="btn btn-1 link-to-services">More Details</a>
+                </article>
+            </div>
+        </section>
+        <div class="bg-color-1 mb-1 row social-row">
+            <div class="icon">
+                <div class="icon-inner">
+                    <a href="#services">
+                        <i class="fas fa-synagogue fa-4x mb-1"></i>
+                        <p>Top quality easy to handle websites!</p>
+                    </a>
+                </div>
+            </div>
+            <div class="icon">
+                <div class="icon-inner">
+                    <a href="#services">
+                        <i class="fas fa-chart-bar fa-4x mb-1"></i>
+                        <p>100% happy customers</p>
+                    </a>
+                </div>
+            </div>
+            <div class="icon">
+                <div class="icon-inner">
+                    <a href="#services">
+                        <i class="fas fa-images fa-4x mb-1"></i>
+                        <p>Video Technical support 24/7</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <section class="mb-1 row services-row" id="services">
+            <div class="section-2-l">
+                <article class="bg-color-6 box-pad mb-1">
+                    <h2 class="mb-2">.02 Services</h2>
+                    <p>We offer plenty of different varieties of CSS layouts and HTML templates</p>
+                    <p class="mb-0">We can implement your ideas into code and make a wonderful responsive website</p>
+
+                </article>
+                <div class="bg-color-7 em-box">
+                    <p class="text-color-2">Website hosting is coming soon! Contact us for more information on the following link</p>
+                    <a href="#contact" class="btn btn-2">Contact</a>
+                </div>
+            </div>
+            <div class="section-2-r">
+                <img src="img/slika2.jpeg" alt="Services image" class="img-responsive1">
+            </div>
+        </section>
+
+        <section id="contact" class="bg-color-5 mb-3">
+            <h2 class="text-white contact-title">.04 Contact Us</h2>
+            <div class="bg-color-white contact-main">
+                <div class="map-outer">
+                    <div class="gmap-canvas">
+                        <!-- How to change your own map point
+                            1. Go to Google Maps
+                            2. Click on your location point
+                            3. Click "Share" and choose "Embed map" tab
+                            4. Copy only URL and paste it within the src="" field below
+                        -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2965.0443617920873!2d21.420481751246772!3d41.99932347911074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1354144c3df1f4b5%3A0x91ff392a3bccae95!2sMiroslav%20Krleza%2048%2C%20Skopje%201000!5e0!3m2!1sen!2smk!4v1622398204272!5m2!1sen!2smk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" >
+                            
+                        </iframe>
+                           
+                    </div>
+                </div>
+                <div class="contact-form-outer">
+                    <form id="contact-form" action="" method="POST" class="bg-color-6 contact-form">
+                        <div class="form-group">
+                            <input type="text" name="name" class="form-control" placeholder="Name" required="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" class="form-control" placeholder="Email" required="" />
+                        </div>
+                        <div class="form-group">
+                            <textarea rows="4" name="message" class="form-control" placeholder="Message..."
+                                required=""></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="ml-auto btn btn-3">
+                                Send
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="contact-info-outer">
+                    <div class="bg-color-6 contact-info">
+                        <p>You can contact us at the following info:</p>
+                        <p class="mb-0">Tel: <a href="tel:+38972307728">+38972307728</a></p>
+                        <p>Email: <a href="mailto:Vkambovski001@gmail.com">Vkambovski001@gmail.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="mb-4 text-center social-s">
+            <a href="https://www.facebook.com/profile.php?id=1632723688" class="social-link" target="_blank"> <i class="fab fa-facebook social-icon"> </i> </a>
+            <a href="https://www.instagram.com/kambovski/?hl=en" class="social-link" target="_blank"><i class="fab fa-instagram social-icon"> </i> </a>
+            
+        </div>
+        <footer class="text-center tm-mb-1">
+            <p> 2020
+            
+            - Design: <a rel="nofollow noopener" href="" target="_blank">Kambovski&#8482</a></p>
+        </footer>
+    </div> <!-- .container -->
+    
+
+</body>
+</html>
